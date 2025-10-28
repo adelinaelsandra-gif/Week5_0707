@@ -1,0 +1,46 @@
+public class LatihanKelompok {
+    public static void main(String[] args) {
+        Scanner ns = new Scanner(System.in);
+        double hargaBlender, totalHarga;
+        String status;
+        
+        System.out.println("Masukkan harga blender= ");
+        hargaBlender = ns.nextDouble();
+        ns.nextLine();
+
+        System.out.println("Masukkan status member= ");
+        status = ns.nextLine();
+
+        if (hargaBlender > 500000 && status == "Member"); {
+            totalHarga = hargaBlender - (hargaBlender * 0.10);
+            System.out.println("Total harga= " + totalHarga);
+
+        } else {
+            if (hargaBlender > 1000000) {
+                totalHarga = hargaBlender * 0,95;
+                System.out.println("Total harga= " + totalHarga);
+            }
+        }
+
+        totalHarga = hargaBlender;
+        System.out.println("total harga);
+
+
+
+
+
+
+
+
+
+
+            t
+            totalHarga = hargaBlender - (0.1 * hargaBlender);
+        } else {
+            totalHarga = hargaBlender;
+        }
+
+
+
+    }
+}
